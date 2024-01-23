@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #192444;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.heading{
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 1rem;
+    /* background-color: #f1a27a; */
+    font-family: "Rubik Burned", system-ui;
+    color: red;
+}
+.img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    /* width: 980px;
+    margin: auto; */
+    
+}
+.choice{
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    background-color: #FF0000;
+    cursor: pointer;
+}
+img{
+    height: 190px;
+    width: 190px;
+    object-fit: cover;
+    /* transform: rotate(-90deg); */
+    border-radius: 50%;
+}
+.msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.score{
+    margin: 3rem;
+    font-size: 1.5rem;
+}
+.btn{
+    font-size: 1.2rem;
+    margin: 0.8rem  1.6rem;
+    padding: 1.2rem 2.4rem;
+    border: 2px solid black;
+    border-radius: 12rem;
+    color: #FF0000;
+    background-color: rgb(180, 180, 211);
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msg{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #FFA252;
+}
+.rubik-burned-regular {
+    font-family: "Rubik Burned", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+.para{
+    color: #ba8484;
+    font-size: 1.2rem;
+}
+  
